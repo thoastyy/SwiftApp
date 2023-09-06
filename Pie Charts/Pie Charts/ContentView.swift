@@ -24,7 +24,7 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 175, height: 175)
                 .clipShape(Circle())
-                .overlay(Circle().stroke(Color.white, lineWidth: 1))
+                .overlay(Circle().stroke(Color.white, lineWidth: 0))
                 .offset(x: 0, y: -250) // Adjust the offset as needed
         
         }

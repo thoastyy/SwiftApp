@@ -8,12 +8,6 @@
 
 import SwiftUI
 
-//struct PlottableValue: Identifiable {
-//    var id = UUID()
-//    var name: String
-//    var value: Double
-//    var color: Color
-//}
 
 class PieChartV2 {
     // where to position the legend

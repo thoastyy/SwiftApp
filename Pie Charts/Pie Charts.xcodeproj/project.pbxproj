@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C33E7472AA89025004BBC2E /* PieChartBeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C33E7462AA89025004BBC2E /* PieChartBeta.swift */; };
 		9CA8FF902AA843470039867B /* Pie_ChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FF8F2AA843470039867B /* Pie_ChartsApp.swift */; };
 		9CA8FF922AA843470039867B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FF912AA843470039867B /* ContentView.swift */; };
 		9CA8FF942AA8434A0039867B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8FF932AA8434A0039867B /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 		9CA8FFAD2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FFAC2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift */; };
 		9CA8FFBA2AA844480039867B /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FFB92AA844480039867B /* PieChart.swift */; };
 		9CA8FFC02AA857D40039867B /* PieChartV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FFBF2AA857D40039867B /* PieChartV2.swift */; };
+		9CA8FFC62AA880F30039867B /* PlottableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FFC52AA880F30039867B /* PlottableValue.swift */; };
+		9CC85D7C2AA88A8C00C7F21C /* SongGenre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC85D7B2AA88A8C00C7F21C /* SongGenre.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C33E7462AA89025004BBC2E /* PieChartBeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartBeta.swift; sourceTree = "<group>"; };
 		9CA8FF8C2AA843470039867B /* Pie Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pie Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA8FF8F2AA843470039867B /* Pie_ChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie_ChartsApp.swift; sourceTree = "<group>"; };
 		9CA8FF912AA843470039867B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		9CA8FFAC2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie_ChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9CA8FFB92AA844480039867B /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
 		9CA8FFBF2AA857D40039867B /* PieChartV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartV2.swift; sourceTree = "<group>"; };
+		9CA8FFC52AA880F30039867B /* PlottableValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlottableValue.swift; sourceTree = "<group>"; };
+		9CC85D7B2AA88A8C00C7F21C /* SongGenre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongGenre.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				9CA8FF8F2AA843470039867B /* Pie_ChartsApp.swift */,
-				9CA8FFB92AA844480039867B /* PieChart.swift */,
 				9CA8FF912AA843470039867B /* ContentView.swift */,
+				9CA8FFC52AA880F30039867B /* PlottableValue.swift */,
+				9CA8FFB92AA844480039867B /* PieChart.swift */,
 				9CA8FFBF2AA857D40039867B /* PieChartV2.swift */,
+				9C33E7462AA89025004BBC2E /* PieChartBeta.swift */,
+				9CC85D7B2AA88A8C00C7F21C /* SongGenre.swift */,
 				9CA8FF932AA8434A0039867B /* Assets.xcassets */,
 				9CA8FF952AA8434A0039867B /* Preview Content */,
 			);
@@ -197,7 +206,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					9CA8FF8B2AA843470039867B = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -265,7 +274,10 @@
 			files = (
 				9CA8FFBA2AA844480039867B /* PieChart.swift in Sources */,
 				9CA8FF922AA843470039867B /* ContentView.swift in Sources */,
+				9CC85D7C2AA88A8C00C7F21C /* SongGenre.swift in Sources */,
 				9CA8FF902AA843470039867B /* Pie_ChartsApp.swift in Sources */,
+				9C33E7472AA89025004BBC2E /* PieChartBeta.swift in Sources */,
+				9CA8FFC62AA880F30039867B /* PlottableValue.swift in Sources */,
 				9CA8FFC02AA857D40039867B /* PieChartV2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +351,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -353,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,6 +412,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -407,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
