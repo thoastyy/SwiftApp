@@ -1,9 +1,4 @@
-//
-//  carouselView.swift
-//  carousel
-//
-//  Created by user on 6/9/23.
-//
+
 
 import SwiftUI
 
@@ -32,7 +27,7 @@ struct carouselView: View {
                                         .resizable()
                                         .scaledToFit()
                                         .scaleEffect(.init(width: scale, height: scale)) // Apply the scaling effect here
-                                        .animation(.easeIn(duration: 3)) // Add ease-in animation
+//                                        .animation(.easeIn(duration: 3)) // Add ease-in animation
                                } placeholder: {
                                    ProgressView()
                                }

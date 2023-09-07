@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct GenreDataMod: View {
+struct GenreCalc: View {
     var body: some View {
         let data = [
             Genre(name: "Pop", count: 6, color: Color(.green)),
@@ -10,7 +10,7 @@ struct GenreDataMod: View {
             Genre(name: "Hip-Hop", count: 5, color: Color(.purple)),
             Genre(name: "R&B", count: 7, color: Color(.blue))
         ]
-        GenreCalc(data:data)
+        GenreCalcFunc(data:data)
     }
 }
 struct Genre {
@@ -19,7 +19,7 @@ struct Genre {
     var color: Color
 }
 
-struct GenreCalc: View {
+struct GenreCalcFunc: View {
     @State var data:Array<Genre>=[]
 
     var body: some View {
@@ -49,7 +49,7 @@ struct GenreCalc: View {
 }
 struct GenreCalc_Previews: PreviewProvider {
     static var previews: some View {
-        GenreDataMod()
+        GenreCalc()
     }
 }
 //#Preview {

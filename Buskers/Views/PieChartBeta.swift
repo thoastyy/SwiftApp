@@ -1,22 +1,3 @@
-////
-////  PieChartBeta.swift
-////  Pie Charts
-////
-////  Created by I3LT-040 on 6/9/23.
-////
-//
-//import SwiftUI
-//import Charts
-//
-
-//
-//
-//
-//#Preview {
-//    PieChartBeta()
-//}
-
-
 import SwiftUI
 import Charts
 
@@ -31,7 +12,7 @@ struct PlottableValue: Identifiable {
     var color: Color
 }
 
-struct PieChartExampleView: View {
+struct PieChartBeta: View {
     let colors: [Color] = [.gray, .red, .orange, .yellow,
                            .green, .blue, .purple, .pink]
     
@@ -75,7 +56,7 @@ struct PieChartExampleView: View {
 //                    )
                     .frame(height: 300)
                     
-                    GenreDataMod()
+                    GenreCalc()
                     
                         Image(imageString) // Replace with your image asset name
                             .resizable()
@@ -114,12 +95,12 @@ struct PieChartExampleView: View {
 
 @available(macOS 14.0, *)
 #Preview {
-    PieChartExampleView()
+    PieChartBeta()
 }
 
 
-struct PieChartBeta: PreviewProvider {
+struct PieChartBeta_Previews: PreviewProvider {
     static var previews: some View {
-        PieChartExampleView()
+        PieChartBeta()
     }
 }
