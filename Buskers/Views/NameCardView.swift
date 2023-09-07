@@ -7,26 +7,24 @@ struct NameCardView: View {
     var body: some View {
         VStack{
             AsyncImage(url: URL(string: buskerObj.profilePicture)) { image in
-               image
-                   .resizable()
-                   .aspectRatio(contentMode: .fit)
-           } placeholder: {
-               ProgressView()
-           }
-//            Image(UIImageView.imageFromServerURL(URLString:buskerObj.profilePicture, placeHolder:nil ))
-//                .resizable()
-//                .aspectRatio(contentMode: .fit) // Maintain aspect ratio and fit within the frame
-//                .frame(width: 300, height: 225) // Set the desired width and height
-//                .clipShape(Circle())
-                
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+//                    .scaledToFit()
+                    .frame(width: 250, height: 250)
+                    .clipShape(Circle())
+            } placeholder: {
+                ProgressView()
+            }
+            
             Text(buskerObj.name)
-                    .bold()
-                    .font(.system(size: 36))
+                .bold()
+                .font(.system(size: 36))
             HStack(spacing: 30){
                 BioView(buskerObj: buskerObj)
                 musicPlayer()
             }
-                
+            
         }
     }
 }
