@@ -25,22 +25,28 @@ import Charts
 @available(macOS 14.0, *)
 struct PieChartExampleView: View {
     let data = [
-        (name: "Pop", count: 1),
-        (name: "Rock", count: 2),
-        (name: "Indie", count: 3),
-        (name: "Jazz", count: 4),
-        (name: "Hip-Hop", count: 5),
-        (name: "R&B", count: 6),
+        (name: "Pop", count: 6, color: Color(red: 0.8, green: 0.5, blue: 0, opacity: 0.5)),
+        (name: "Rock", count: 2, color: Color(red: 0.7, green: 0.4, blue: 0, opacity: 1)),
+        (name: "Indie", count: 3, color: Color(red: 0.6, green: 0.3, blue: 0, opacity: 1)),
+        (name: "Jazz", count: 4, color: Color(red: 0.5, green: 0.2, blue: 0, opacity: 1)),
+        (name: "Hip-Hop", count: 5, color: Color(red: 0.4, green: 0.1, blue: 0, opacity: 1)),
+        (name: "R&B", count: 7, color: Color(red: 0.3, green: 0, blue: 0, opacity: 1)),
     ]
 
         var body: some View {
             VStack{
-                Text("Steve Jobs").font(.title2).bold()// FOR CHANGING NAME
+                Text("Steve Jobs")
+                    .font(
+                        .title2
+                    )
+                    .bold()// FOR CHANGING NAME
                 ZStack{
-                    Chart(data, id: \.name) { name, count in
-                        SectorMark(angle: .value("Value", count), innerRadius: .ratio(0.8), angularInset: 1.5)
+                    Chart(data, id: \.name) { name, count, color in
+                        SectorMark(angle: .value("Value", count),
+                                   innerRadius: .ratio(0.8),
+                                   angularInset: 1.5)
                         .cornerRadius(5)
-                        .foregroundStyle(by: .value("Genre", name))
+                        .foregroundStyle(color)
                     }
                     
 //                    .foregroundStyle( // Gradient shading
@@ -54,13 +60,13 @@ struct PieChartExampleView: View {
                     
                         Image("CirclePicture") // Replace with your image asset name
                             .resizable()
-                            .frame(width: 220, height: 220)
+                            .frame(width: 234, height: 234)
                             .clipShape(Circle())
                             .overlay(Circle().stroke(Color.white, lineWidth: 0))
-                            .offset(x:0,y:-9)
+
                 }
+                Spacer()
             }
-        .offset(x:0,y:-215)// FOR CHANGING CIRCLE COORD
     }
 }
 
