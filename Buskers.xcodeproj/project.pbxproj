@@ -23,6 +23,8 @@
 		1C4CEB4D2AA9EFC90057C68A /* BioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CEB4C2AA9EFC90057C68A /* BioView.swift */; };
 		1C4CEB4F2AA9F75F0057C68A /* NameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CEB4E2AA9F75F0057C68A /* NameCardView.swift */; };
 		1C4CEB512AA9FACF0057C68A /* enchanted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C4CEB502AA9FACF0057C68A /* enchanted.mp3 */; };
+		9C70FCA02AAA2B4000F409D8 /* PieChartBeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70FC9E2AAA2B4000F409D8 /* PieChartBeta.swift */; };
+		9C70FCA12AAA2B4000F409D8 /* GenreCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C70FC9F2AAA2B4000F409D8 /* GenreCalc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		1C4CEB4C2AA9EFC90057C68A /* BioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioView.swift; sourceTree = "<group>"; };
 		1C4CEB4E2AA9F75F0057C68A /* NameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameCardView.swift; sourceTree = "<group>"; };
 		1C4CEB502AA9FACF0057C68A /* enchanted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enchanted.mp3; sourceTree = "<group>"; };
+		9C70FC9E2AAA2B4000F409D8 /* PieChartBeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartBeta.swift; sourceTree = "<group>"; };
+		9C70FC9F2AAA2B4000F409D8 /* GenreCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreCalc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				1C4CEB4A2AA9BB730057C68A /* MusicPlayerView.swift */,
 				1C4CEB4C2AA9EFC90057C68A /* BioView.swift */,
 				1C4CEB4E2AA9F75F0057C68A /* NameCardView.swift */,
+				9C70FC9E2AAA2B4000F409D8 /* PieChartBeta.swift */,
+				9C70FC9F2AAA2B4000F409D8 /* GenreCalc.swift */,
 				1C4CEB502AA9FACF0057C68A /* enchanted.mp3 */,
 			);
 			path = Views;
@@ -195,11 +201,13 @@
 				1C0F8FEC2AA8DA580076A957 /* LandingPageView.swift in Sources */,
 				1C4CEB4F2AA9F75F0057C68A /* NameCardView.swift in Sources */,
 				1C4CEB452AA9BAFC0057C68A /* BuskerView.swift in Sources */,
+				9C70FCA02AAA2B4000F409D8 /* PieChartBeta.swift in Sources */,
 				1C4CEB472AA9BB2B0057C68A /* CarousellView.swift in Sources */,
 				1C0F8FEF2AA95D2C0076A957 /* LocationManager.swift in Sources */,
 				1C0F8FAF2AA71CC70076A957 /* BuskersApp.swift in Sources */,
 				1C4CEB3B2AA96B7E0057C68A /* SwipeView.swift in Sources */,
 				1C0F8FF12AA9622F0076A957 /* LoadingView.swift in Sources */,
+				9C70FCA12AAA2B4000F409D8 /* GenreCalc.swift in Sources */,
 				1C4CEB4D2AA9EFC90057C68A /* BioView.swift in Sources */,
 				1C4CEB4B2AA9BB730057C68A /* MusicPlayerView.swift in Sources */,
 				1C4CEB392AA96AF30057C68A /* BuskerManager.swift in Sources */,
@@ -339,6 +347,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -368,6 +377,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
