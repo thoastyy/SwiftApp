@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C33E7472AA89025004BBC2E /* PieChartBeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C33E7462AA89025004BBC2E /* PieChartBeta.swift */; };
+		9C8A36472AA969C800061420 /* PieChartContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FF912AA843470039867B /* PieChartContentView.swift */; };
+		9C8A364B2AA96B4200061420 /* PieChartNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A364A2AA96B4200061420 /* PieChartNavigation.swift */; };
+		9C8A364D2AA97AE200061420 /* GenreCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A364C2AA97AE200061420 /* GenreCalc.swift */; };
+		9C8A36512AA99A5B00061420 /* GenreDataMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A36502AA99A5B00061420 /* GenreDataMod.swift */; };
+		9C8A36532AA9B5F600061420 /* 5sTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A36522AA9B5F600061420 /* 5sTimer.swift */; };
+		9CA8FF902AA843470039867B /* Pie_ChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FF8F2AA843470039867B /* Pie_ChartsApp.swift */; };
+		9CA8FF942AA8434A0039867B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8FF932AA8434A0039867B /* Assets.xcassets */; };
+		9CA8FF972AA8434A0039867B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA8FF962AA8434A0039867B /* Preview Assets.xcassets */; };
+		9CA8FFA12AA8434A0039867B /* Pie_ChartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FFA02AA8434A0039867B /* Pie_ChartsTests.swift */; };
+		9CA8FFAB2AA8434A0039867B /* Pie_ChartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FFAA2AA8434A0039867B /* Pie_ChartsUITests.swift */; };
+		9CA8FFAD2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA8FFAC2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CA8FF9D2AA8434A0039867B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA8FF842AA843470039867B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA8FF8B2AA843470039867B;
+			remoteInfo = "Pie Charts";
+		};
+		9CA8FFA72AA8434A0039867B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CA8FF842AA843470039867B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CA8FF8B2AA843470039867B;
+			remoteInfo = "Pie Charts";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C33E7462AA89025004BBC2E /* PieChartBeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartBeta.swift; sourceTree = "<group>"; };
+		9C8A364A2AA96B4200061420 /* PieChartNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartNavigation.swift; sourceTree = "<group>"; };
+		9C8A364C2AA97AE200061420 /* GenreCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreCalc.swift; sourceTree = "<group>"; };
+		9C8A36502AA99A5B00061420 /* GenreDataMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreDataMod.swift; sourceTree = "<group>"; };
+		9C8A36522AA9B5F600061420 /* 5sTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5sTimer.swift; sourceTree = "<group>"; };
+		9CA8FF8C2AA843470039867B /* Pie Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pie Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA8FF8F2AA843470039867B /* Pie_ChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie_ChartsApp.swift; sourceTree = "<group>"; };
+		9CA8FF912AA843470039867B /* PieChartContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartContentView.swift; sourceTree = "<group>"; };
+		9CA8FF932AA8434A0039867B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CA8FF962AA8434A0039867B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CA8FF9C2AA8434A0039867B /* Pie ChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pie ChartsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA8FFA02AA8434A0039867B /* Pie_ChartsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie_ChartsTests.swift; sourceTree = "<group>"; };
+		9CA8FFA62AA8434A0039867B /* Pie ChartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pie ChartsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CA8FFAA2AA8434A0039867B /* Pie_ChartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie_ChartsUITests.swift; sourceTree = "<group>"; };
+		9CA8FFAC2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie_ChartsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CA8FF892AA843470039867B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA8FF992AA8434A0039867B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA8FFA32AA8434A0039867B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CA8FF832AA843470039867B = {
+			isa = PBXGroup;
+			children = (
+				9CA8FF8E2AA843470039867B /* Pie Charts */,
+				9CA8FF9F2AA8434A0039867B /* Pie ChartsTests */,
+				9CA8FFA92AA8434A0039867B /* Pie ChartsUITests */,
+				9CA8FF8D2AA843470039867B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CA8FF8D2AA843470039867B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8FF8C2AA843470039867B /* Pie Charts.app */,
+				9CA8FF9C2AA8434A0039867B /* Pie ChartsTests.xctest */,
+				9CA8FFA62AA8434A0039867B /* Pie ChartsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CA8FF8E2AA843470039867B /* Pie Charts */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8FF8F2AA843470039867B /* Pie_ChartsApp.swift */,
+				9CA8FF912AA843470039867B /* PieChartContentView.swift */,
+				9C33E7462AA89025004BBC2E /* PieChartBeta.swift */,
+				9C8A364A2AA96B4200061420 /* PieChartNavigation.swift */,
+				9C8A364C2AA97AE200061420 /* GenreCalc.swift */,
+				9C8A36522AA9B5F600061420 /* 5sTimer.swift */,
+				9CA8FF932AA8434A0039867B /* Assets.xcassets */,
+				9CA8FF952AA8434A0039867B /* Preview Content */,
+			);
+			path = "Pie Charts";
+			sourceTree = "<group>";
+		};
+		9CA8FF952AA8434A0039867B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C8A36502AA99A5B00061420 /* GenreDataMod.swift */,
+				9CA8FF962AA8434A0039867B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9CA8FF9F2AA8434A0039867B /* Pie ChartsTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8FFA02AA8434A0039867B /* Pie_ChartsTests.swift */,
+			);
+			path = "Pie ChartsTests";
+			sourceTree = "<group>";
+		};
+		9CA8FFA92AA8434A0039867B /* Pie ChartsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9CA8FFAA2AA8434A0039867B /* Pie_ChartsUITests.swift */,
+				9CA8FFAC2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift */,
+			);
+			path = "Pie ChartsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CA8FF8B2AA843470039867B /* Pie Charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA8FFB02AA8434A0039867B /* Build configuration list for PBXNativeTarget "Pie Charts" */;
+			buildPhases = (
+				9CA8FF882AA843470039867B /* Sources */,
+				9CA8FF892AA843470039867B /* Frameworks */,
+				9CA8FF8A2AA843470039867B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pie Charts";
+			productName = "Pie Charts";
+			productReference = 9CA8FF8C2AA843470039867B /* Pie Charts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CA8FF9B2AA8434A0039867B /* Pie ChartsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA8FFB32AA8434A0039867B /* Build configuration list for PBXNativeTarget "Pie ChartsTests" */;
+			buildPhases = (
+				9CA8FF982AA8434A0039867B /* Sources */,
+				9CA8FF992AA8434A0039867B /* Frameworks */,
+				9CA8FF9A2AA8434A0039867B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA8FF9E2AA8434A0039867B /* PBXTargetDependency */,
+			);
+			name = "Pie ChartsTests";
+			productName = "Pie ChartsTests";
+			productReference = 9CA8FF9C2AA8434A0039867B /* Pie ChartsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9CA8FFA52AA8434A0039867B /* Pie ChartsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CA8FFB62AA8434A0039867B /* Build configuration list for PBXNativeTarget "Pie ChartsUITests" */;
+			buildPhases = (
+				9CA8FFA22AA8434A0039867B /* Sources */,
+				9CA8FFA32AA8434A0039867B /* Frameworks */,
+				9CA8FFA42AA8434A0039867B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CA8FFA82AA8434A0039867B /* PBXTargetDependency */,
+			);
+			name = "Pie ChartsUITests";
+			productName = "Pie ChartsUITests";
+			productReference = 9CA8FFA62AA8434A0039867B /* Pie ChartsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CA8FF842AA843470039867B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9CA8FF8B2AA843470039867B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9CA8FF9B2AA8434A0039867B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9CA8FF8B2AA843470039867B;
+					};
+					9CA8FFA52AA8434A0039867B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9CA8FF8B2AA843470039867B;
+					};
+				};
+			};
+			buildConfigurationList = 9CA8FF872AA843470039867B /* Build configuration list for PBXProject "Pie Charts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CA8FF832AA843470039867B;
+			productRefGroup = 9CA8FF8D2AA843470039867B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CA8FF8B2AA843470039867B /* Pie Charts */,
+				9CA8FF9B2AA8434A0039867B /* Pie ChartsTests */,
+				9CA8FFA52AA8434A0039867B /* Pie ChartsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CA8FF8A2AA843470039867B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA8FF972AA8434A0039867B /* Preview Assets.xcassets in Resources */,
+				9CA8FF942AA8434A0039867B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA8FF9A2AA8434A0039867B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA8FFA42AA8434A0039867B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CA8FF882AA843470039867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA8FF902AA843470039867B /* Pie_ChartsApp.swift in Sources */,
+				9C8A36532AA9B5F600061420 /* 5sTimer.swift in Sources */,
+				9C8A364D2AA97AE200061420 /* GenreCalc.swift in Sources */,
+				9C33E7472AA89025004BBC2E /* PieChartBeta.swift in Sources */,
+				9C8A36472AA969C800061420 /* PieChartContentView.swift in Sources */,
+				9C8A364B2AA96B4200061420 /* PieChartNavigation.swift in Sources */,
+				9C8A36512AA99A5B00061420 /* GenreDataMod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA8FF982AA8434A0039867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA8FFA12AA8434A0039867B /* Pie_ChartsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CA8FFA22AA8434A0039867B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA8FFAD2AA8434A0039867B /* Pie_ChartsUITestsLaunchTests.swift in Sources */,
+				9CA8FFAB2AA8434A0039867B /* Pie_ChartsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CA8FF9E2AA8434A0039867B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA8FF8B2AA843470039867B /* Pie Charts */;
+			targetProxy = 9CA8FF9D2AA8434A0039867B /* PBXContainerItemProxy */;
+		};
+		9CA8FFA82AA8434A0039867B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CA8FF8B2AA843470039867B /* Pie Charts */;
+			targetProxy = 9CA8FFA72AA8434A0039867B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9CA8FFAE2AA8434A0039867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9CA8FFAF2AA8434A0039867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CA8FFB12AA8434A0039867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pie Charts/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pie-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CA8FFB22AA8434A0039867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pie Charts/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pie-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9CA8FFB42AA8434A0039867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pie-ChartsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pie Charts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pie Charts";
+			};
+			name = Debug;
+		};
+		9CA8FFB52AA8434A0039867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pie-ChartsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pie Charts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pie Charts";
+			};
+			name = Release;
+		};
+		9CA8FFB72AA8434A0039867B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pie-ChartsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pie Charts";
+			};
+			name = Debug;
+		};
+		9CA8FFB82AA8434A0039867B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pie-ChartsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pie Charts";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CA8FF872AA843470039867B /* Build configuration list for PBXProject "Pie Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA8FFAE2AA8434A0039867B /* Debug */,
+				9CA8FFAF2AA8434A0039867B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA8FFB02AA8434A0039867B /* Build configuration list for PBXNativeTarget "Pie Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA8FFB12AA8434A0039867B /* Debug */,
+				9CA8FFB22AA8434A0039867B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA8FFB32AA8434A0039867B /* Build configuration list for PBXNativeTarget "Pie ChartsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA8FFB42AA8434A0039867B /* Debug */,
+				9CA8FFB52AA8434A0039867B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CA8FFB62AA8434A0039867B /* Build configuration list for PBXNativeTarget "Pie ChartsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CA8FFB72AA8434A0039867B /* Debug */,
+				9CA8FFB82AA8434A0039867B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CA8FF842AA843470039867B /* Project object */;
+}
