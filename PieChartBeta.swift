@@ -23,6 +23,14 @@ import Charts
 
 
 @available(macOS 14.0, *)
+
+struct PlottableValue: Identifiable {
+    var id = UUID()
+    var name: String
+    var value: Double
+    var color: Color
+}
+
 struct PieChartExampleView: View {
     let data = [
         (name: "Pop", count: 6, color: Color(red: 0.8, green: 0.5, blue: 0, opacity: 0.5)),
