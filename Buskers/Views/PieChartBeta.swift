@@ -20,7 +20,7 @@ struct PieChartBeta: View {
     @State private var fgColor: Color = .gray
     @State private var imageString: String = "CirclePicture"
     
-    @State private var counter:Int=0
+//    @State private var counter:Int=0
     
     let data = [
         (name: "Pop", count: 70, color: Color(.green)),
@@ -65,20 +65,16 @@ struct PieChartBeta: View {
                             .overlay(Circle().stroke(Color.white, lineWidth: 0))
                             .foregroundColor(fgColor)
                             .contentShape(Circle()) // Set the content shape to Circle
-                            .onTapGesture(count: 1) {
-//                                fgColor = colors.randomElement()!
-                                if counter==0{
-                                    imageString = ""
-                                    counter+=1
-                                }else{
-                                    imageString = "CirclePicture"
-                                    counter-=1
-                                    
-                                }
-
-                                
-                                
-                            }
+//                            .onTapGesture(count: 1) {
+////                                fgColor = colors.randomElement()!
+//                                if counter==0{
+//                                    imageString = ""
+//                                    counter+=1
+//                                }else{
+//                                    imageString = "CirclePicture"
+//                                    counter-=1
+//                                }
+//                            }       //[For Hiding Legend on tap]
 //                }
                 Spacer()
 //                Image(systemName: "pencil.circle.fill")

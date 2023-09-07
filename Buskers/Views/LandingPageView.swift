@@ -60,7 +60,7 @@ struct LandingPageView: View {
                 //                    .bold()
                 //                    .font(.title)
                 
-                Text("Discover buskers near you!")
+                Text("Discover music near you !")
                     .italic()
                     .font(.system(size: 16))
             }
