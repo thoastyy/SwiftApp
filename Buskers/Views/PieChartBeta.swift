@@ -118,7 +118,7 @@ struct PieChartExampleView: View {
 }
 
 
-struct ContentView_Previews: PreviewProvider {
+struct PieChartBeta: PreviewProvider {
     static var previews: some View {
         PieChartExampleView()
     }
