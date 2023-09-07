@@ -10,16 +10,60 @@ import CoreLocationUI
 
 struct LandingPageView: View {
     @EnvironmentObject var locationManager: LocationManager
+    @State private var isAnimating = false
     
     var body: some View {
+        
+        
         VStack{
             
             VStack(spacing:20) {
-                Text("Welcome to buskers")
-                    .bold()
-                    .font(.title)
                 
-                Text("Share your location")
+                VStack{
+                    Text("BUSKERS")
+                        .font(.system(size: 55, weight: .bold))
+                        .overlay(
+                            Text("BUSKERS")
+                                .font(.system(size: 55, weight: .bold))
+                                .background(
+                                    LinearGradient(
+                                        gradient: Gradient(colors: [.blue, .purple, .blue]),
+                                        startPoint: .leading,
+                                        endPoint: .trailing
+                                    )
+                                )
+                                .mask(
+                                    Text("BUSKERS")
+                                        .font(.system(size: 55, weight: .bold))
+                                        .foregroundColor(.clear)
+                                        .background(
+                                            LinearGradient(
+                                                gradient: Gradient(colors: [.clear, .white, .clear]),
+                                                startPoint: .leading,
+                                                endPoint: .trailing
+                                            )
+                                            .offset(x: isAnimating ? 200 : -200)
+                                        )
+                                )
+                                .onAppear {
+                                    withAnimation(Animation.linear(duration: 7).repeatForever(autoreverses: false)) {
+                                        self.isAnimating.toggle()
+                                    }
+                                }
+                        )
+                    
+                }
+                
+                
+                
+                //                Text("Welcome to buskers")
+                //                    .bold()
+                //                    .font(.title)
+                
+                Text("Discover buskers near you!")
+                    .italic()
+                    .font(.system(size: 16))
+                    .foregroundColor(.gray)
             }
             .multilineTextAlignment(.center)
             .padding()
@@ -32,7 +76,7 @@ struct LandingPageView: View {
             .symbolVariant(.fill)
             .foregroundColor(.white)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        //        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
