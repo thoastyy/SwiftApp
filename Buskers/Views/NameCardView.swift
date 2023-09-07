@@ -6,15 +6,19 @@ struct NameCardView: View {
     
     var body: some View {
         VStack{
-            AsyncImage(url: URL(string: buskerObj.profilePicture)) { image in
-                image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-//                    .scaledToFit()
-                    .frame(width: 250, height: 250)
-                    .clipShape(Circle())
-            } placeholder: {
-                ProgressView()
+            ZStack{
+                PieChartBeta()
+                AsyncImage(url: URL(string: buskerObj.profilePicture)) { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                    //                    .scaledToFit()
+                        .frame(width: 250, height: 250)
+                        .clipShape(Circle())
+                }placeholder: {
+                    ProgressView()
+                
+                }
             }
             
             Text(buskerObj.name)

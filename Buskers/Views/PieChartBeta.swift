@@ -31,12 +31,12 @@ struct PieChartBeta: View {
         (name: "R&B", count: 7, color: Color(.blue)),
     ]
         var body: some View {
-            VStack{
-                Text("Steve Jobs")
-                    .font(
-                        .title2
-                    )
-                    .bold()// FOR CHANGING NAME
+//            VStack{
+//                Text("Steve Jobs")
+//                    .font(
+//                        .title2
+//                    )
+//                    .bold()// FOR CHANGING NAME
 
                 ZStack{
                     Chart(data, id: \.name) { name, count, color in
@@ -54,7 +54,7 @@ struct PieChartBeta: View {
 //                            endPoint: .trailing
 //                        )
 //                    )
-                    .frame(height: 300)
+                    .frame(height: 320)
                     
                     GenreCalc()
                     
@@ -79,7 +79,7 @@ struct PieChartBeta: View {
                                 
                                 
                             }
-                }
+//                }
                 Spacer()
 //                Image(systemName: "pencil.circle.fill")
 //                    .resizable()
