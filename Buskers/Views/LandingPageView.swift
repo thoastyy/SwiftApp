@@ -63,7 +63,6 @@ struct LandingPageView: View {
                 Text("Discover buskers near you!")
                     .italic()
                     .font(.system(size: 16))
-                    .foregroundColor(.gray)
             }
             .multilineTextAlignment(.center)
             .padding()

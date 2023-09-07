@@ -9,9 +9,16 @@ import SwiftUI
 
 struct LoadingView: View {
     var body: some View {
-        ProgressView()
-            .progressViewStyle(CircularProgressViewStyle(tint: .black))
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        
+        ZStack{
+            ProgressView()
+                .progressViewStyle(CircularProgressViewStyle(tint: .black))
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+            Text("Gathering buskers!! 😆")
+                .offset(y:50)
+        }
+        
     }
 }
 

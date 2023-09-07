@@ -18,6 +18,10 @@
               {
                   "artist": "Taylor Swift",
                   "imageURL": "https://usustatesman.com/wp-content/uploads/2014/11/tswift.jpg"
+              },
+            {
+                  "artist": "ABBA",
+                  "imageURL": "https://www.thesun.co.uk/wp-content/uploads/2021/09/39774761jpg-JS675339411-1.jpg"
               }
           ],
           "location": {
@@ -46,8 +50,12 @@
                   "imageURL": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-sza-v1-caef9ee6-c938-4f82-a50d-f05fb2fef08e.jpg"
               },
               {
-                  "artist": "Taylor Swift",
-                  "imageURL": "https://usustatesman.com/wp-content/uploads/2014/11/tswift.jpg"
+                  "artist": "Charlie Puth",
+                  "imageURL": "https://www.charlieputh.com/sites/g/files/g2000015081/files/2022-07/OG-lp3-updated.jpg"
+              },
+            {
+                  "artist": "Chase Shakur",
+                  "imageURL": "https://images.squarespace-cdn.com/content/v1/5e1eaafddf4035726d4d68e1/d50610bf-6176-44f0-b664-46afd0e2fc3b/IMG_3089.PNG"
               }
           ],
           "location": {
@@ -72,12 +80,16 @@
               "jpop": 40
           },
           "songs": [{
-                  "artist": "SZA",
-                  "imageURL": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-sza-v1-caef9ee6-c938-4f82-a50d-f05fb2fef08e.jpg"
+                  "artist": "RADWIMPS",
+                  "imageURL": "https://www.otaquest.com/wp-content/uploads/2020/04/RADWIMPS_artist-photo_small-scaled.jpg"
               },
               {
-                  "artist": "Taylor Swift",
-                  "imageURL": "https://usustatesman.com/wp-content/uploads/2014/11/tswift.jpg"
+                  "artist": "indigo la End",
+                  "imageURL": "https://indigolaend.com/img/index/slidertop20230414.jpg"
+              },
+              {
+                  "artist": "Beethoven",
+                  "imageURL": "https://i0.wp.com/www.dissentmagazine.org/wp-content/uploads/beethovenfb.jpg?fit=1200%2C630&ssl=1"
               }
           ],
           "location": {
