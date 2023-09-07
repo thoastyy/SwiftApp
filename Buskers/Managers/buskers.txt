@@ -26,7 +26,7 @@
               "address": "Lucky Plaza",
               "link": "https://maps.apple.com/?address=304%20Orchard%20Rd,%20Singapore%20238863&auid=16791975700011038373&ll=1.304331,103.833915&lsp=9902&q=Lucky%20Plaza"
           },
-          "bio": "This is my bio for Jason Yu"
+          "bio": "Busking since 2010 🤸🏻\nCurrently studying in SP, DIT 📲\nI wield the acoustic guitar like an old friend, coaxing soulful harmonies and enchanting rhythms that will transport you to another world.\nBusking isn't just about the coins in my hat🎩, it's about the connection with you, the incredible people passing by. My music🎶 is my gift to the world, and your smiles and applause are my greatest rewards\nWhether you're seeking solace in a melody or a dance partner👯‍♀️ for your daily rhythm, come join me on the sidewalk, and together, we'll paint the town with music. See you out there!💁🏻‍♂️"
       },
       {
           "name": "Muhammad Firdaus",
@@ -56,7 +56,7 @@
               "address": "CHJIMES",
               "link": "https://maps.apple.com/?address=30%20Victoria%20St,%20Singapore%20187996&auid=6096130356827451565&ll=1.295132,103.851889&lsp=9902&q=CHIJMES"
           },
-          "bio": "I am Muhammad Firdaus"
+          "bio": "Busking since 2020\nFull time working as a singer and song-writer\nMy trusty companion is the saxophone, which I play with heart and soul, crafting melodies that resonate with the rhythm of life.\nBusking isn't just a performance, it's an opportunity to connect with the heartbeat of the city. I'm here to share the joy of music and create memorable moments with each and every one of you.\nFeel free to snap photos or videos during my performances and tag me on your social media. Let's create memories together!"
       },
       {
           "name": "Arya Yunata",
@@ -86,6 +86,6 @@
               "address": "Bugis street",
               "link": "https://maps.apple.com/?address=3%20New%20Bugis%20Street,%20Singapore%20188867&auid=16902182123188571335&ll=1.300490,103.854954&lsp=9902&q=Bugis%20Street"
           },
-          "bio": "I am Arya Yunata"
+          "bio": "Busking since 2018\nPart time apple employee, part time busker\nWith my violin in hand, I craft musical stories that evoke emotions and ignite your imagination, creating a symphony in the midst of the city's chaos.\nIf my music resonates with you, consider dropping a coin or two in my hat to keep the musical river flowing. Every contribution, big or small, fuels my passion.\nIf you're in need of a musical escape or a dance partner under the open sky, come find me on the streets, and let's weave melodies into the tapestry of city life. See you on the sidewalk!"
       }
   ]
