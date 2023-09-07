@@ -1,0 +1,91 @@
+  [{
+          "name": "Jason Yu",
+          "age": 17,
+          "profilePicture": "https://yt3.googleusercontent.com/ytc/AOPolaS39KptwKFAlcptpMhDRTV8IGhyDiwVDZrOxqshtQ=s900-c-k-c0x00ffffff-no-rj",
+          "genre": {
+              "pop": 20,
+              "rnb": 40,
+              "indie": 0,
+              "classical": 0,
+              "mandopop": 40,
+              "malay": 0,
+              "jpop": 0
+          },
+          "songs": [{
+                  "artist": "SZA",
+                  "imageURL": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-sza-v1-caef9ee6-c938-4f82-a50d-f05fb2fef08e.jpg"
+              },
+              {
+                  "artist": "Taylor Swift",
+                  "imageURL": "https://usustatesman.com/wp-content/uploads/2014/11/tswift.jpg"
+              }
+          ],
+          "location": {
+              "latitude": 1.304331,
+              "longitude": 103.833915,
+              "address": "Lucky Plaza",
+              "link": "https://maps.apple.com/?address=304%20Orchard%20Rd,%20Singapore%20238863&auid=16791975700011038373&ll=1.304331,103.833915&lsp=9902&q=Lucky%20Plaza"
+          },
+          "bio": "This is my bio for Jason Yu"
+      },
+      {
+          "name": "Muhammad Firdaus",
+          "age": 25,
+          "profilePicture": "https://onecms-res.cloudinary.com/image/upload/s--1wxiVDmc--/c_fill,g_auto,h_523,w_693/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2021/11/29/whatsapp_image_2021-11-26_at_09.30.04_2.jpeg?itok=w665aMlf",
+          "genre": {
+              "pop": 20,
+              "rnb": 40,
+              "indie": 20,
+              "classical": 0,
+              "mandopop": 0,
+              "malay": 20,
+              "jpop": 0
+          },
+          "songs": [{
+                  "artist": "SZA",
+                  "imageURL": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-sza-v1-caef9ee6-c938-4f82-a50d-f05fb2fef08e.jpg"
+              },
+              {
+                  "artist": "Taylor Swift",
+                  "imageURL": "https://usustatesman.com/wp-content/uploads/2014/11/tswift.jpg"
+              }
+          ],
+          "location": {
+              "latitude": 1.295132,
+              "longitude": 103.851889,
+              "address": "CHJIMES",
+              "link": "https://maps.apple.com/?address=30%20Victoria%20St,%20Singapore%20187996&auid=6096130356827451565&ll=1.295132,103.851889&lsp=9902&q=CHIJMES"
+          },
+          "bio": "I am Muhammad Firdaus"
+      },
+      {
+          "name": "Arya Yunata",
+          "age": 23,
+          "profilePicture": "https://genz-mag.com/wp-content/uploads/2020/09/Web-PortraitArtboard-1-copy.jpg",
+          "genre": {
+              "pop": 20,
+              "rnb": 0,
+              "indie": 20,
+              "classical": 20,
+              "mandopop": 0,
+              "malay": 20,
+              "jpop": 40
+          },
+          "songs": [{
+                  "artist": "SZA",
+                  "imageURL": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-sza-v1-caef9ee6-c938-4f82-a50d-f05fb2fef08e.jpg"
+              },
+              {
+                  "artist": "Taylor Swift",
+                  "imageURL": "https://usustatesman.com/wp-content/uploads/2014/11/tswift.jpg"
+              }
+          ],
+          "location": {
+              "latitude": 1.300490,
+              "longitude": 103.854954,
+              "address": "Bugis street",
+              "link": "https://maps.apple.com/?address=3%20New%20Bugis%20Street,%20Singapore%20188867&auid=16902182123188571335&ll=1.300490,103.854954&lsp=9902&q=Bugis%20Street"
+          },
+          "bio": "I am Arya Yunata"
+      }
+  ]
