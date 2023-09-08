@@ -30,10 +30,23 @@ struct SettingsView: View {
     let buskerObj: Busker
     
     var body: some View {
-        Text(buskerObj.bio)
-            .fontWeight(.semibold)
-            .multilineTextAlignment(.leading)
-            .padding([.top, .leading, .trailing])
+        let location: String = "📍" + buskerObj.location.address
+        
+        VStack{
+            
+            Text(buskerObj.bio)
+                .fontWeight(.semibold)
+                .multilineTextAlignment(.leading)
+                .padding([.top, .leading, .trailing])
+            
+            Text(location)
+                .onTapGesture {
+                    UIApplication.shared.open(URL(string: buskerObj.location.link)!)
+                            }
+                .fontWeight(.semibold)
+        }
+        
+        
     }
     
     //
