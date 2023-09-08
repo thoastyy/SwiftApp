@@ -13,6 +13,7 @@ struct PlottableValue: Identifiable {
 }
 
 struct PieChartBeta: View {
+    let buskerObj: Busker
     let colors: [Color] = [.gray, .red, .orange, .yellow,
                            .green, .blue, .purple, .pink]
     
@@ -23,13 +24,24 @@ struct PieChartBeta: View {
 //    @State private var counter:Int=0
     
     let data = [
-        (name: "Pop", count: 70, color: Color(.green)),
+        (name: "Pop", count: 6, color: Color(.green)),
         (name: "Rock", count: 2, color: Color(.yellow)),
         (name: "Indie", count: 3, color: Color(.orange)),
         (name: "Jazz", count: 4, color: Color(.red)),
         (name: "Hip-Hop", count: 5, color: Color(.purple)),
         (name: "R&B", count: 7, color: Color(.blue)),
     ]
+    
+//    let data = [
+//        (name: "Pop", count: buskerObj.genre.pop, color: Color(.green)),
+//        (name: "Rock", count: 2, color: Color(.yellow)),
+//                (name: "Indie", count: 3, color: Color(.orange)),
+//                (name: "Jazz", count: 4, color: Color(.red)),
+//                (name: "Hip-Hop", count: 5, color: Color(.purple)),
+//                (name: "R&B", count: 7, color: Color(.blue)),
+//        
+//    ]
+    
         var body: some View {
 //            VStack{
 //                Text("Steve Jobs")
@@ -89,14 +101,14 @@ struct PieChartBeta: View {
     }
 }
 
-@available(macOS 14.0, *)
-#Preview {
-    PieChartBeta()
-}
+//@available(macOS 14.0, *)
+//#Preview {
+//    PieChartBeta(buskerObj: Busker)
+//}
 
 
-struct PieChartBeta_Previews: PreviewProvider {
-    static var previews: some View {
-        PieChartBeta()
-    }
-}
+//struct PieChartBeta_Previews: PreviewProvider {
+//    static var previews: some View {
+//        PieChartBeta()
+//    }
+//}

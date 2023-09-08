@@ -9,7 +9,7 @@ struct NameCardView: View {
     var body: some View {
         VStack{
             ZStack{
-                PieChartBeta()
+                PieChartBeta(buskerObj: buskerObj)
                 AsyncImage(url: URL(string: buskerObj.profilePicture)) { image in
                     image
                         .resizable()

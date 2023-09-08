@@ -3,12 +3,12 @@ import SwiftUI
 struct GenreCalc: View {
     var body: some View {
         let data = [
-            Genre(name: "Pop", count: 6, color: Color(.green)),
-            Genre(name: "Rock", count: 2, color: Color(.yellow)),
-            Genre(name: "Indie", count: 3, color: Color(.orange)),
-            Genre(name: "Jazz", count: 4, color: Color(.red)),
-            Genre(name: "Hip-Hop", count: 5, color: Color(.purple)),
-            Genre(name: "R&B", count: 7, color: Color(.blue))
+            Genre(name: "Pop", count: 22, color: Color(.green)),
+            Genre(name: "Rock", count: 7, color: Color(.yellow)),
+            Genre(name: "Indie", count: 11, color: Color(.orange)),
+            Genre(name: "Jazz", count: 15, color: Color(.red)),
+            Genre(name: "Hip-Hop", count: 19, color: Color(.purple)),
+            Genre(name: "R&B", count: 26, color: Color(.blue))
         ]
         GenreCalcFunc(data:data)
     }
