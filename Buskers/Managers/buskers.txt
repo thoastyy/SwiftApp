@@ -13,15 +13,15 @@
           },
           "songs": [{
                   "artist": "SZA",
-                  "imageURL": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-sza-v1-caef9ee6-c938-4f82-a50d-f05fb2fef08e.jpg"
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/2/2c/SZA_-_S.O.S.png"
               },
               {
                   "artist": "Taylor Swift",
-                  "imageURL": "https://usustatesman.com/wp-content/uploads/2014/11/tswift.jpg"
+                  "imageURL": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647"
               },
             {
                   "artist": "ABBA",
-                  "imageURL": "https://www.thesun.co.uk/wp-content/uploads/2021/09/39774761jpg-JS675339411-1.jpg"
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/ABBA_-_ABBA_%281975%2C_Original_Polar_LP%29.jpg/220px-ABBA_-_ABBA_%281975%2C_Original_Polar_LP%29.jpg"
               }
           ],
           "location": {
@@ -47,15 +47,15 @@
           },
           "songs": [{
                   "artist": "SZA",
-                  "imageURL": "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-sza-v1-caef9ee6-c938-4f82-a50d-f05fb2fef08e.jpg"
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/2/2c/SZA_-_S.O.S.png"
               },
               {
                   "artist": "Charlie Puth",
-                  "imageURL": "https://www.charlieputh.com/sites/g/files/g2000015081/files/2022-07/OG-lp3-updated.jpg"
+                  "imageURL": "https://assets-metrostyle.abs-cbn.com/prod/metrostyle/attachments/f9954f82-a15a-4c30-b801-811d1d1c8a82_charlie%20puth%20charlie%20album.jpeg"
               },
             {
                   "artist": "Chase Shakur",
-                  "imageURL": "https://images.squarespace-cdn.com/content/v1/5e1eaafddf4035726d4d68e1/d50610bf-6176-44f0-b664-46afd0e2fc3b/IMG_3089.PNG"
+                  "imageURL": "https://cdns-images.dzcdn.net/images/artist/174b7a90f4826738067ec7b4e4858aa7/500x500.jpg"
               }
           ],
           "location": {
@@ -81,15 +81,16 @@
           },
           "songs": [{
                   "artist": "RADWIMPS",
-                  "imageURL": "https://www.otaquest.com/wp-content/uploads/2020/04/RADWIMPS_artist-photo_small-scaled.jpg"
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/English_Your_Name_radwimps_album.jpg/220px-English_Your_Name_radwimps_album.jpg"
               },
+              
               {
                   "artist": "indigo la End",
-                  "imageURL": "https://indigolaend.com/img/index/slidertop20230414.jpg"
+                  "imageURL": "https://cdns-images.dzcdn.net/images/cover/4e0f7645c847ddc67adb1c2514267722/264x264.jpg"
               },
               {
                   "artist": "Beethoven",
-                  "imageURL": "https://i0.wp.com/www.dissentmagazine.org/wp-content/uploads/beethovenfb.jpg?fit=1200%2C630&ssl=1"
+                  "imageURL": "https://cdns-images.dzcdn.net/images/cover/bd56058c67223b5772ad85580b59a63f/500x500-000000-80-0-0.jpg"
               }
           ],
           "location": {
