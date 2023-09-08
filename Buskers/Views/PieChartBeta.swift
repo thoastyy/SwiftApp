@@ -76,11 +76,27 @@ struct PieChartBeta: View {
                             .clipShape(Circle())
                             .overlay(Circle().stroke(Color.white, lineWidth: 0))
                             .foregroundColor(fgColor)
-                            .contentShape(Circle()) //
-
-                    
+                            .contentShape(Circle()) // Set the content shape to Circle
+//                            .onTapGesture(count: 1) {
+////                                fgColor = colors.randomElement()!
+//                                if counter==0{
+//                                    imageString = ""
+//                                    counter+=1
+//                                }else{
+//                                    imageString = "CirclePicture"
+//                                    counter-=1
+//                                }
+//                            }       //[For Hiding Legend on tap]
+//                }
                 Spacer()
-
+//                Image(systemName: "pencil.circle.fill")
+//                    .resizable()
+//                    .frame(width: 200, height: 200)
+//                    .foregroundColor(fgColor)
+//                    .contentShape(Circle()) // Set the content shape to Circle
+//                    .onTapGesture(count: 1) {
+//                        fgColor = colors.randomElement()!
+//                    }
             }
     }
 }

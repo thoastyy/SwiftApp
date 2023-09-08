@@ -1,0 +1,104 @@
+  [{
+          "name": "Jason Yu",
+          "age": 17,
+          "profilePicture": "https://yt3.googleusercontent.com/ytc/AOPolaS39KptwKFAlcptpMhDRTV8IGhyDiwVDZrOxqshtQ=s900-c-k-c0x00ffffff-no-rj",
+          "genre": {
+              "pop": 20,
+              "rnb": 40,
+              "indie": 0,
+              "classical": 0,
+              "mandopop": 40,
+              "malay": 0,
+              "jpop": 0
+          },
+          "songs": [{
+                  "artist": "SZA",
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/2/2c/SZA_-_S.O.S.png"
+              },
+              {
+                  "artist": "Taylor Swift",
+                  "imageURL": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647"
+              },
+            {
+                  "artist": "ABBA",
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a8/ABBA_-_ABBA_%281975%2C_Original_Polar_LP%29.jpg/220px-ABBA_-_ABBA_%281975%2C_Original_Polar_LP%29.jpg"
+              }
+          ],
+          "location": {
+              "latitude": 1.304331,
+              "longitude": 103.833915,
+              "address": "Lucky Plaza",
+              "link": "https://maps.apple.com/?address=304%20Orchard%20Rd,%20Singapore%20238863&auid=16791975700011038373&ll=1.304331,103.833915&lsp=9902&q=Lucky%20Plaza"
+          },
+          "bio": "Busking since 2010 🤸🏻\nCurrently studying in SP, DIT 📲\nI wield the acoustic guitar like an old friend, coaxing soulful harmonies and enchanting rhythms that will transport you to another world.\nBusking isn't just about the coins in my hat🎩, it's about the connection with you, the incredible people passing by. My music🎶 is my gift to the world, and your smiles and applause are my greatest rewards\nWhether you're seeking solace in a melody or a dance partner👯‍♀️ for your daily rhythm, come join me on the sidewalk, and together, we'll paint the town with music. See you out there!💁🏻‍♂️"
+      },
+      {
+          "name": "Muhammad Firdaus",
+          "age": 25,
+          "profilePicture": "https://onecms-res.cloudinary.com/image/upload/s--1wxiVDmc--/c_fill,g_auto,h_523,w_693/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/v1/mediacorp/cna/image/2021/11/29/whatsapp_image_2021-11-26_at_09.30.04_2.jpeg?itok=w665aMlf",
+          "genre": {
+              "pop": 20,
+              "rnb": 40,
+              "indie": 20,
+              "classical": 0,
+              "mandopop": 0,
+              "malay": 20,
+              "jpop": 0
+          },
+          "songs": [{
+                  "artist": "SZA",
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/2/2c/SZA_-_S.O.S.png"
+              },
+              {
+                  "artist": "Charlie Puth",
+                  "imageURL": "https://assets-metrostyle.abs-cbn.com/prod/metrostyle/attachments/f9954f82-a15a-4c30-b801-811d1d1c8a82_charlie%20puth%20charlie%20album.jpeg"
+              },
+            {
+                  "artist": "Chase Shakur",
+                  "imageURL": "https://cdns-images.dzcdn.net/images/artist/174b7a90f4826738067ec7b4e4858aa7/500x500.jpg"
+              }
+          ],
+          "location": {
+              "latitude": 1.295132,
+              "longitude": 103.851889,
+              "address": "CHJIMES",
+              "link": "https://maps.apple.com/?address=30%20Victoria%20St,%20Singapore%20187996&auid=6096130356827451565&ll=1.295132,103.851889&lsp=9902&q=CHIJMES"
+          },
+          "bio": "Busking since 2020\nFull time working as a singer and song-writer\nMy trusty companion is the saxophone, which I play with heart and soul, crafting melodies that resonate with the rhythm of life.\nBusking isn't just a performance, it's an opportunity to connect with the heartbeat of the city. I'm here to share the joy of music and create memorable moments with each and every one of you.\nFeel free to snap photos or videos during my performances and tag me on your social media. Let's create memories together!"
+      },
+      {
+          "name": "Arya Yunata",
+          "age": 23,
+          "profilePicture": "https://genz-mag.com/wp-content/uploads/2020/09/Web-PortraitArtboard-1-copy.jpg",
+          "genre": {
+              "pop": 20,
+              "rnb": 0,
+              "indie": 20,
+              "classical": 20,
+              "mandopop": 0,
+              "malay": 20,
+              "jpop": 40
+          },
+          "songs": [{
+                  "artist": "RADWIMPS",
+                  "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/English_Your_Name_radwimps_album.jpg/220px-English_Your_Name_radwimps_album.jpg"
+              },
+              
+              {
+                  "artist": "indigo la End",
+                  "imageURL": "https://cdns-images.dzcdn.net/images/cover/4e0f7645c847ddc67adb1c2514267722/264x264.jpg"
+              },
+              {
+                  "artist": "Beethoven",
+                  "imageURL": "https://cdns-images.dzcdn.net/images/cover/bd56058c67223b5772ad85580b59a63f/500x500-000000-80-0-0.jpg"
+              }
+          ],
+          "location": {
+              "latitude": 1.300490,
+              "longitude": 103.854954,
+              "address": "Bugis street",
+              "link": "https://maps.apple.com/?address=3%20New%20Bugis%20Street,%20Singapore%20188867&auid=16902182123188571335&ll=1.300490,103.854954&lsp=9902&q=Bugis%20Street"
+          },
+          "bio": "Busking since 2018\nPart time apple employee, part time busker\nWith my violin in hand, I craft musical stories that evoke emotions and ignite your imagination, creating a symphony in the midst of the city's chaos.\nIf my music resonates with you, consider dropping a coin or two in my hat to keep the musical river flowing. Every contribution, big or small, fuels my passion.\nIf you're in need of a musical escape or a dance partner under the open sky, come find me on the streets, and let's weave melodies into the tapestry of city life. See you on the sidewalk!"
+      }
+  ]
