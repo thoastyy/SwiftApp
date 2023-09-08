@@ -39,11 +39,15 @@ struct SettingsView: View {
                 .multilineTextAlignment(.leading)
                 .padding([.top, .leading, .trailing])
             
+            Spacer()
+            
             Text(location)
                 .onTapGesture {
                     UIApplication.shared.open(URL(string: buskerObj.location.link)!)
                             }
                 .fontWeight(.semibold)
+                .font(.system(size: 35))
+                .foregroundColor(.blue)
         }
         
         
